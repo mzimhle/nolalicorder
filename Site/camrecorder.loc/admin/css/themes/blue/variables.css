@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+
+:root {
+	--color-blue: #4274B8;
+	--color-red: #C1272D;
+	--color-darkgrey: #77787B;
+	--color-lightgrey: #B3B3B3;
+	--color-lightergrey: #E6E6E6;
+	--color-white: #ffffff;
+}

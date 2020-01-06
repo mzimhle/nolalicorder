@@ -1,0 +1,22 @@
+@CHARSET "ISO-8859-1";
+
+.font-package {
+	
+}
+
+.flexbox-parent {
+	display: -webkit-flex;
+	display: flex;
+	overflow: hidden;
+	width: 100%;
+	padding: 3px;
+	min-height: 250px;
+	max-height: 1000px;
+}
+
+.flexbox-parent>div {
+	display: inline-block;
+	overflow: hidden;
+	margin: 3px;
+	padding: 5px;
+}

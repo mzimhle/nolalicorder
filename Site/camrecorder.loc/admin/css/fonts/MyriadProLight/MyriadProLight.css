@@ -1,0 +1,15 @@
+			
+@font-face {
+	font-family: "Myriad Pro Light";
+	src: url('Myriad Pro Light-Bold.otf');
+	font-weight: bold;
+}			
+@font-face {
+	font-family: "Myriad Pro Light";
+	src: url('Myriad Pro Light-Bold Italic.otf');
+	font-weight: bold;
+	font-style: italic;
+}		
+.font-MyriadProLight {
+	font-family: "Myriad Pro Light", Georgia, Serif;
+}

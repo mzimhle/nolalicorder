@@ -1,0 +1,81 @@
+/** 
+ *   Author     : Philip
+ *   Route      : designer/canvas
+ *   Element    : view
+ */
+@import "toolbar.css";
+
+@import "property.css";
+
+@import "layers.css";
+
+@import "image-picker.css";
+
+.editor-window {
+	min-height: 634px;
+}
+
+.container .row {
+	background-color: ghostwhite;
+}
+
+#dropdownLayers {
+	width: 225px;
+}
+
+.layer-item {
+	width: 70px;
+	display: inline-block;
+	font-weight: bold;
+}
+
+ul#layer-list li a {
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+input:read-only {
+	color: silver;
+}
+
+.canvas-frame {
+	overflow-y: auto;
+	overflow-x: auto;
+	/* width: 960px;
+	height: 545px; */
+	max-height: 600px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#canvas {
+	width: 960px;
+	height: 540px;
+	background-color: white;
+	border-style: groove;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#content-data {
+	transition: display 4s;
+}
+
+/* @media ( max-width : 1199px) {
+	body {
+		background-color: lightgreen;
+	}
+} */
+
+.col-md-2, .col-md-12 {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+div.row.group {
+	border: 1px groove silver;
+	padding: 5px;
+	border-radius: 3px;
+	margin-top: 5px;
+}

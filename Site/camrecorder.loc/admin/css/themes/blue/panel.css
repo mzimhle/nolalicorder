@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+
+
+.panel-default {
+	border-radius: 0px;
+}
+
+.panel-default>.panel-heading {
+	background-color: #4274B8;
+	color: white;
+	background-image: linear-gradient(to bottom, #4274B8 0, #4274B8 100%);
+}
+
+.panel-heading {
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}

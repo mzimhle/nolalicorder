@@ -1,0 +1,7 @@
+{
+  "id": "",
+  "url": "http://camcorder.nolali.co.za/",
+  "name": "PHONE_HUWAWEI_2",
+  "api": "2",
+  "account": "232SC"
+}

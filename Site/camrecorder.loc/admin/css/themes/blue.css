@@ -1,0 +1,37 @@
+@CHARSET "UTF-8";
+
+@import "blue/jumbo.css";
+
+@import "blue/page-header.css";
+
+@import "blue/panel.css";
+
+@import "blue/nav.css";
+
+
+/* 
+Blue - #4274B8   -   16/116/184   
+Red - #C1272D   -   193/39/45
+Darker Grey - #77787B   -   119/120/123
+Light Grey - #B3B3B3   -   179/179/179
+Lighter Grey (Search Icon BG) - #E6E6E6   -   230/230/230
+ */
+
+.theme-text-colour {
+	color: #4274B8;
+}
+
+.theme-back-colour {
+	background-color: #4274B8;
+	color : white;
+}
+
+a:HOVER {
+	text-decoration: none;
+	color: #337ab7;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+	margin-bottom: 5px;
+    margin-top: -8px;
+}

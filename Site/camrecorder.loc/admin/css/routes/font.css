@@ -1,0 +1,24 @@
+@CHARSET "ISO-8859-1";
+
+div#errorBlock.help-block.file-error-message {
+	position: absolute;
+	top: -40px;
+	left: 100px;
+	width: 700px;
+	z-index: 10;
+}
+
+.delete {
+	margin: 5px;
+    color: red;
+    text-shadow: 1px 1px 2px white;
+	background: white;
+	border-radius: 5px;
+	width: 22px;
+	height: 22px;
+	display: inline-block;
+}	
+
+div.row.font-list .col-md-3 {
+	height: 305px;
+}

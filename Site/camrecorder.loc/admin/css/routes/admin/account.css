@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+.block_tmenu {
+	min-height: 400px;
+}
+
+button {
+	zoom: 50%;
+}
+
+th {
+	cursor: pointer;
+}

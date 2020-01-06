@@ -1,0 +1,45 @@
+/** 
+ *   Author     : Philip
+ *   Route      : designer/canvas
+ *   Element    : view
+ \e020
+ \f105
+ \00a0
+ */
+
+h2.entry {
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+div.entry {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+.menu-menu {
+	padding: 15px;
+}
+
+.menu-menu .btn {
+	display: block;
+	font-size: large;
+	width: 170px;
+	margin: 5px;
+	text-transform: uppercase;
+}
+
+
+.menu-menu img {
+	width: 229px;
+	height: 129px;
+	padding: 0px;
+}
+
+.col-md-10 {
+	border-bottom: silver 2px solid;
+}
+
+.buttons {
+	/* padding-top: 20px; */
+}

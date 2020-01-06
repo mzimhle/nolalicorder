@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_weight="0.5"
+	android:padding="10dp">
+	<TextView
+		android:text="Current video information"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="35px"
+		android:id="@+id/info"
+		android:paddingBottom="5pt" />
+	<VideoView
+		android:id="@+id/SampleVideoView"
+		android:layout_width="fill_parent"
+		android:layout_height="470.5dp" />  
+	<TextView
+		android:text="Copyright @ Nolali - The Creative 2019"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="35px"
+		android:id="@+id/footer"
+		android:paddingTop="5pt" />
+</LinearLayout>

@@ -1,0 +1,89 @@
+@CHARSET "UTF-8";
+
+.menubundle .menus-available .panel-default {
+	overflow-y: auto;
+	max-height: 600px;
+}
+
+.menubundle .menus-available .panel-heading {
+	position: absolute;
+	top: 0px;
+	width: 538px;;
+	padding-right: 20px;
+	margin-right: 20px;
+	z-index: 1;
+}
+
+.menubundle .menus-available .list-group {
+	margin-top: 38px
+}
+
+.menubundle .fa-stack {
+	line-height: 1.7em;
+	bottom: 5px;
+	padding: 0px;
+}
+
+.menubundle .menus {
+	min-height: 20px;
+}
+
+.menubundle .menus:before {
+	content: "Drag the menus for screen from the right and adjust start time.";
+}
+
+.menubundle input.pull-right.form-control {
+	width: 55px;
+	padding: 0px 10px;
+	height: 25px;
+	font-stretch: 16px;
+	margin-top: -5px;
+	display: inline-block;
+}
+
+.menubundle #screens>ul>li {
+	list-style: none;
+	margin: 0px 0px 10px 0px;
+	background-color: #4274B8;
+	color: white;
+	padding: 1px 0px 5px 20px;
+}
+
+.menubundle .delete {
+	margin: 5px;
+	color: white;
+	/* text-shadow: 1px 1px 2px white; */
+	/* background: white; */
+	/* border-radius: 5px; */
+	width: 22px;
+	height: 22px;
+	display: inline-block;
+}
+
+.menubundle .delete, .menubundle .close {
+	opacity: 0.5;
+}
+
+.menubundle .delete:hover, .menubundle .close:hover {
+	opacity: 1;
+}
+
+.menubundle .btn {
+	color: white;
+	opacity: 0.7;
+	display: inline;
+}
+
+.menubundle .btn:hover {
+	opacity: 1;
+}
+/*
+#btnAddScreen {
+	color: white;
+	opacity: 0.5;
+}
+
+#btnAddScreen:hover {
+	opacity: 1;
+}
+*/

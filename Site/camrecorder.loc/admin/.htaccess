@@ -1,0 +1,9 @@
+RewriteEngine On
+
+RewriteBase /
+
+DirectoryIndex default.php
+
+############################################################## MAILERS
+RewriteRule ^mailer/view/([^/\.]+)/?$			mailer/view.php?code=$1			[QSA,L]
+RewriteRule ^mailer/tracking/([^/\.]+)/?$		mailer/tracking.php?tracking=$1	[QSA,L]

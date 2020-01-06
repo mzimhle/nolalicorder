@@ -1,0 +1,49 @@
+@CHARSET "UTF-8";
+
+[draggable] {
+	user-select: none;
+}
+
+#layers {
+	overflow: auto;
+	min-height: 100px;
+	max-height: 150px;
+}
+
+#layers-property, #layers {
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+.layers {
+	border: 1px solid black;
+	height: 28px;
+	background-color: silver;
+	/* border-radius: 2px; */
+	cursor: move;
+}
+
+.layers .title {
+	margin-left: 5px;
+}
+
+.layers.active {
+	border: solid 1px blue;
+	background-color: lightcyan;
+}
+
+.panel-layers {
+	margin-bottom: 3px;
+}
+
+#panel-layers.panel-body {
+	padding: 0px;
+}
+
+div.panel-heading.cursor-pointer span.glyphicon:before {
+	content: "\e259";
+}
+
+div.panel-heading.cursor-pointer.collapsed span.glyphicon:before {
+	content: "\e258";
+}

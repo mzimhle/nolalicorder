@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+
+#image-picker-modal {
+	position: absolute;
+	top: 100px;
+	z-index: 10;
+	width: 715px;
+	left: auto;
+	right: auto;
+	height: 850px;
+}
+
+#image-picker-modal .image_picker_image {
+	height: 90px;
+}
+
+#image-picker-modal .panel-body {
+	overflow-y: auto;
+	max-height: 700px;
+}

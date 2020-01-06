@@ -1,0 +1,15 @@
+RewriteEngine On
+
+RewriteBase /
+
+DirectoryIndex default.php
+
+############################################################## MAILERS
+RewriteRule ^mailer/view/([^/\.]+)/?$		mailer/view.php?code=$1			[QSA,L]
+RewriteRule ^mailer/tracking/([^/\.]+)/?$	mailer/tracking.php?tracking=$1	[QSA,L]
+
+############################################################## API 
+# Getting the schedules for the day.
+RewriteRule ^api/2/([^/\.]+)/?$							api/2/schedule.php?account=$1						[QSA,L]
+RewriteRule ^api/2/([^/\.]+)/upload/?$					api/2/upload.php?account=$1							[QSA,L]
+RewriteRule ^api/2/([^/\.]+)/uploadcheck/([^/\.]+)/?$	api/2/uploadcheck.php?account=$1&schedulecode=$2	[QSA,L]

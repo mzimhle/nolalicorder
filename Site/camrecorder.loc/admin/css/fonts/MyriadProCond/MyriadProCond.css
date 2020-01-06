@@ -1,0 +1,24 @@
+			
+@font-face {
+	font-family: "Myriad Pro Cond";
+	src: url('Myriad Pro Cond-Regular.otf');
+}			
+@font-face {
+	font-family: "Myriad Pro Cond";
+	src: url('Myriad Pro Cond-Italic.otf');
+	font-style: italic;
+}			
+@font-face {
+	font-family: "Myriad Pro Cond";
+	src: url('Myriad Pro Cond-Bold.otf');
+	font-weight: bold;
+}			
+@font-face {
+	font-family: "Myriad Pro Cond";
+	src: url('Myriad Pro Cond-Bold Italic.otf');
+	font-weight: bold;
+	font-style: italic;
+}		
+.font-MyriadProCond {
+	font-family: "Myriad Pro Cond", Georgia, Serif;
+}

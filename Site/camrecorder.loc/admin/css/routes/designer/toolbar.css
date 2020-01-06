@@ -1,0 +1,45 @@
+/** 
+ *   Author     : Philip
+ *   Route      : designer/canvas
+ *   Element    : toolbar
+ */
+.btn-toolbar {
+	border-radius: 0px;
+}
+
+.btn-toolbar button {
+	border-radius: 0px;
+	border-color: white;
+}
+
+.toolbar-menu {
+	background-color: #4274B8;
+}
+
+.btn-designer {
+	width: 20px;
+}
+
+.toolbar-menu .input-group span {
+	background-color: #4274B8;
+	color: white;
+}
+
+.toolbar-menu .btn-default {
+	background-image: linear-gradient(to bottom, #4274B8 0, #4274B8 100%);
+}
+
+.toolbar-menu .btn-default:hover {
+	background-color: #e0e0e0;
+	background-position: 0 -35px;
+}
+
+/*
+.btn-default {
+	padding: 0px;
+}
+
+button span.glyphicon {
+	padding: 10px;
+}
+*/

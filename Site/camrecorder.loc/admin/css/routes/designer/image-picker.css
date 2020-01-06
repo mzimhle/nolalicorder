@@ -1,0 +1,41 @@
+@CHARSET "UTF-8";
+
+#image-picker-modal {
+	position: absolute;
+	top: 134px;
+	z-index: 10;
+	width: auto;
+	left: 100px;
+	right: 100px;
+	height: auto;	
+}
+
+#image-picker {
+	margin-bottom: 70px !important;	
+}
+#image-picker-modal .image_picker_image {
+	height: inherit;
+}
+
+#image-picker-modal .panel-body {
+	overflow-y: auto;
+	/* max-height: 700px; */
+}
+
+ul.thumbnails.image_picker_selector li {
+	margin: 0px 36px 53px 0px !important; 
+}
+
+.dim {
+    height:100%;
+    width:100%;
+    position:fixed;
+    left:0;
+    top:0;
+    z-index:500 !important;
+    background-color:black;
+    filter: alpha(opacity=75); /* internet explorer */
+    -khtml-opacity: 0.75;      /* khtml, old safari */
+      -moz-opacity: 0.75;      /* mozilla, netscape */
+           opacity: 0.75;      /* fx, safari, opera */
+}
